@@ -1,5 +1,5 @@
 const MAX_ADS = 48;
-const FILLER_IMAGE = "assets/SAS000000.png";
+const FILLER_IMAGE = "https://scss6027.github.io/saphah-ads/assets/SAS000000.png";
 
 async function loadAdvertisements() {
     const directory = document.getElementById("ad-directory");
