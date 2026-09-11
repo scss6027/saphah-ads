@@ -1,4 +1,3 @@
-```javascript
 const MAX_ADS = 48;
 const FILLER_IMAGE = "https://scss6027.github.io/saphah-ads/assets/SAS000000.png";
 
@@ -93,4 +92,3 @@ function addFiller() {
 }
 
 loadAdvertisements();
-```
