@@ -1,5 +1,6 @@
+```javascript
 const MAX_ADS = 48;
-const FILLER_IMAGE = "assets/ad-000000.jpg";
+const FILLER_IMAGE = "assets/SAS000000.png";
 
 async function loadAdvertisements() {
     const directory = document.getElementById("ad-directory");
@@ -13,7 +14,8 @@ async function loadAdvertisements() {
             throw new Error("Unable to load advertisers.json");
         }
 
-        const advertisers = await response.json();
+        const data = await response.json();
+        const advertisers = data.advertisers;
 
         const activeAds = advertisers
             .filter(ad =>
@@ -72,7 +74,7 @@ function addAd(ad) {
         slot.appendChild(image);
     }
 
-    document.getElementById("ad-directory").appendChild(slot);
+    directory.appendChild(slot);
 }
 
 function addFiller() {
@@ -91,3 +93,4 @@ function addFiller() {
 }
 
 loadAdvertisements();
+```
