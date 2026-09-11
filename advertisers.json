@@ -1,0 +1,41 @@
+[
+  {
+    "customer_id": "000000",
+    "ad_number": 0,
+    "name": "YOUR AD HERE",
+    "email": null,
+    "image": "https://scss6027.saphah-ads/assets/ad-000000.jpg",
+    "url": null,
+    "status": "filler",
+    "created": null,
+    "cancelled": null,
+    "request_id": null,
+    "payment_reference": null
+  },
+  {
+    "customer_id": "000001",
+    "ad_number": 1,
+    "name": "ADVERTISE HERE NOW",
+    "email": null,
+    "image": "https://scss6027.saphah-ads/assets/ad-000001.jpg",
+    "url": "https://scss6027.saphah-ads/advertise.html",
+    "status": "permanent",
+    "created": null,
+    "cancelled": null,
+    "request_id": null,
+    "payment_reference": null
+  },
+  {
+    "customer_id": "000002",
+    "ad_number": 2,
+    "name": "THE TRAFFIC PLATFORM",
+    "email": null,
+    "image": "https://scss6027.saphah-ads/assets/ad-000002.jpg",
+    "url": null,
+    "status": "permanent",
+    "created": null,
+    "cancelled": null,
+    "request_id": null,
+    "payment_reference": null
+  }
+]
