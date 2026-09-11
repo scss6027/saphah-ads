@@ -1,4 +1,3 @@
-```javascript
 const MAX_ADS = 48;
 const FILLER_IMAGE = "assets/SAS000000.png";
 
@@ -93,4 +92,3 @@ function addFiller() {
 }
 
 loadAdvertisements();
-```
