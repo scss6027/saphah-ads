@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
     <meta name="robots" content="index, follow">
     <title>Saphah Advertising Service — Order Now</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="advertise.js" defer></script>
 </head>
 
 <body>
@@ -23,55 +24,59 @@
     <div class="page-content">
         <h2>ORDER NOW</h2>
 
-        <p>Order a 125×125 advertising placement for US$5.00 once-off.</p>
+```
+    <p>Order a 125×125 advertising placement for US$5.00 once-off.</p>
 
-        <p>Your advertisement will remain active until you request cancellation, subject to approval of the advertisement and payment.</p>
+    <p>Your advertisement will remain active until you request cancellation, subject to approval of the advertisement and verification of payment.</p>
 
-        <form id="advertisement-form">
+    <form id="advertisement-form">
 
-            <div class="form-group">
-                <label for="customer-name">CUSTOMER / BUSINESS NAME</label>
-                <p class="field-info">Enter the name of the person, business, service, or organisation that will be associated with this advertisement.</p>
-                <input type="text" id="customer-name" name="customer_name" required>
-            </div>
+        <div class="form-group">
+            <label for="customer-name">CUSTOMER / BUSINESS NAME</label>
+            <p class="field-info">Enter the name of the person, business, service, or organisation that will be associated with this advertisement.</p>
+            <input type="text" id="customer-name" name="customer_name" required>
+        </div>
 
-            <div class="form-group">
-                <label for="customer-email">EMAIL ADDRESS</label>
-                <p class="field-info">Enter the email address where we can contact you regarding your advertisement order.</p>
-                <input type="email" id="customer-email" name="customer_email" required>
-            </div>
+        <div class="form-group">
+            <label for="customer-email">EMAIL ADDRESS</label>
+            <p class="field-info">Enter the email address where we can contact you regarding your advertisement order.</p>
+            <input type="email" id="customer-email" name="customer_email" required>
+        </div>
 
-            <div class="form-group">
-                <label for="image-url">ADVERTISEMENT IMAGE URL</label>
-                <p class="field-info">Enter the complete public URL of your 125×125 pixel JPG advertisement. The image must be accessible without requiring a login.</p>
-                <input type="url" id="image-url" name="image_url" required>
-                <button type="button" id="verify-image">VERIFY IMAGE</button>
-                <div id="image-verification"></div>
-            </div>
+        <div class="form-group">
+            <label for="image-url">ADVERTISEMENT IMAGE URL</label>
+            <p class="field-info">Enter the complete public URL of your 125×125 pixel JPG advertisement. The image must be accessible without requiring a login.</p>
+            <input type="url" id="image-url" name="image_url" required>
+            <button type="button" id="verify-image">VERIFY IMAGE</button>
+            <div id="image-verification"></div>
+        </div>
 
-            <div class="form-group">
-                <label for="destination-url">DESTINATION URL</label>
-                <p class="field-info">Enter the complete URL of the page or website that visitors should reach when they click your advertisement.</p>
-                <input type="url" id="destination-url" name="destination_url" required>
-            </div>
+        <div class="form-group">
+            <label for="destination-url">DESTINATION URL</label>
+            <p class="field-info">Enter the complete URL of the page or website that visitors should reach when they click your advertisement.</p>
+            <input type="url" id="destination-url" name="destination_url" required>
+        </div>
 
-            <div class="form-group">
-                <label>PAYMENT</label>
-                <p class="field-info">The advertising placement costs US$5.00 once-off. Your customer or business name will be included in the PayPal payment INFO field for identification.</p>
-                <a id="paypal-link" class="button" href="https://PayPal.me/swdb2018/5USD" target="_blank" rel="noopener noreferrer">PAY US$5.00</a>
-            </div>
+        <div class="form-group">
+            <label>PAYMENT</label>
+            <p class="field-info">The advertising placement costs US$5.00 once-off. Click PAY US$5.00 to open PayPal.Me and complete your payment.</p>
+            <a id="paypal-link" class="button" href="https://PayPal.me/swdb2018/5USD" target="_blank" rel="noopener noreferrer">PAY US$5.00</a>
+            <p class="field-info">On the PayPal payment page, please enter your CUSTOMER / BUSINESS NAME in the NOTE field so that we can identify your payment.</p>
+        </div>
 
-            <div class="form-group">
-                <label>IMPORTANT</label>
-                <p class="field-info">Please check all information carefully before submitting your order. Your advertisement will be reviewed after the order and payment are received.</p>
-            </div>
+        <div class="form-group">
+            <label>IMPORTANT</label>
+            <p class="field-info">Please check all information carefully before submitting your order. Your advertisement will be reviewed after the order and payment are received, and will only become active after approval and verification of payment.</p>
+        </div>
 
-            <button type="submit">SUBMIT ADVERTISEMENT</button>
+        <button type="submit">SUBMIT ADVERTISEMENT</button>
 
-            <div id="submission-status"></div>
+        <div id="submission-status"></div>
 
-        </form>
-     </div>
+    </form>
+ </div>
+```
+
   </main>
 
   <footer>
